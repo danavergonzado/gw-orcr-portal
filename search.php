@@ -1,6 +1,5 @@
 <?php
-
-include ('scandir.php');
+//include ('scandir.php');
 
 class CSNumberHandler 
 {
@@ -50,6 +49,8 @@ class CSNumberHandler
         } else {
             $this->response = "Search error...";
         }
+
+        return  $this->response;
     }
 
     public function getResponse() 
