@@ -20,7 +20,7 @@
             
                 <!--Profile/logout-->
                 <div class="mx-4">
-                    <p class="font-bold text-base">ORCR AVAILABILITY CHECKER</p>
+                    <p class="font-bold text-base">ORCR CHECKER</p>
                 </div>
             </div>
         </div>
