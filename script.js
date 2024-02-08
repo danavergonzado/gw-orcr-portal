@@ -55,8 +55,8 @@ function formSubmit() {
             .then(data => {
 
                 if (!data.length == 0) {
-                    var status = data[0].CSNumber + " is available. &nbsp;";
-                    status += "Click here to download.";
+                   // var status = data[0].CSNumber + " is available. &nbsp;";
+                   var status = "Storage directory not found."; 
                 }else {
                     status = "ORCR not found.";
                 }
